@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:horsescratch/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:horsescratch/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:horsescratch/prow:hmacToken
+segmentWriteKey: vault:horsescratch:segmentWriteKey
